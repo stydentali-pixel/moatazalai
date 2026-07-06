@@ -1,0 +1,16 @@
+export const MOATAZALAI_RESPONSE_HEADERS = {
+  cache: "X-moatazalai-Cache",
+  cacheHit: "X-moatazalai-Cache-Hit",
+  compression: "X-moatazalai-Compression",
+  costSaved: "X-moatazalai-Cost-Saved",
+  fallbackAttempts: "X-moatazalai-Fallback-Attempts",
+  latencyMs: "X-moatazalai-Latency-Ms",
+  model: "X-moatazalai-Model",
+  progress: "X-moatazalai-Progress",
+  provider: "X-moatazalai-Provider",
+  requestId: "X-moatazalai-Request-Id",
+  responseCost: "X-moatazalai-Response-Cost",
+  tokensIn: "X-moatazalai-Tokens-In",
+  tokensOut: "X-moatazalai-Tokens-Out",
+  version: "X-moatazalai-Version",
+} as const;

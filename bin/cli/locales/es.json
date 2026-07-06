@@ -1,0 +1,32 @@
+{
+  "common": {
+    "error": "Error: {message}",
+    "serverOffline": "El servidor moatazalai está offline. Inícielo con: moatazalai serve",
+    "authRequired": "Autenticación requerida. Configure MOATAZALAI_API_KEY o ejecute: moatazalai setup",
+    "rateLimited": "Límite de solicitudes excedido. Reintente en {seconds}s.",
+    "timeout": "Solicitud expiró después de {ms}ms.",
+    "success": "Listo.",
+    "yes": "sí",
+    "no": "no",
+    "confirm": "¿Está seguro? (sí/no)",
+    "dryRun": "[simulación] haría: {action}",
+    "cancelled": "Cancelado.",
+    "jsonOpt": "Salida como JSON",
+    "yesOpt": "Omitir confirmación"
+  },
+  "program": {
+    "description": "moatazalai — Router de IA inteligente con fallback automático",
+    "version": "Mostrar versión y salir",
+    "output": "Formato de salida (table, json, jsonl, csv)",
+    "quiet": "Suprimir salida no esencial",
+    "no_color": "Deshabilitar salida en color",
+    "timeout": "Tiempo de espera de solicitudes HTTP en milisegundos",
+    "api_key": "Clave de API para el servidor moatazalai",
+    "base_url": "URL base del servidor moatazalai",
+    "context": "Contexto/perfil del servidor para este comando",
+    "lang": "Establecer idioma del CLI (reemplaza MOATAZALAI_LANG)"
+  },
+  "redis": {
+    "description": "Iniciar un contenedor local de Redis con un clic (Podman o Docker) para el almacenamiento en caché y seguimiento de cuotas de moatazalai"
+  }
+}

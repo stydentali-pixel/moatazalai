@@ -1,0 +1,32 @@
+{
+  "common": {
+    "error": "Feil: {message}",
+    "serverOffline": "moatazalai-serveren er offline. Start med: moatazalai serve",
+    "authRequired": "Autentisering kreves. Angi MOATAZALAI_API_KEY eller kjør: moatazalai setup",
+    "rateLimited": "Forespørselgrense overskredet. Prøv igjen om {seconds}s.",
+    "timeout": "Forespørselen tidsavbrutt etter {ms}ms.",
+    "success": "Ferdig.",
+    "yes": "ja",
+    "no": "nei",
+    "confirm": "Er du sikker? (ja/nei)",
+    "dryRun": "[simulering] ville: {action}",
+    "cancelled": "Avbrutt.",
+    "jsonOpt": "Utdata som JSON",
+    "yesOpt": "Hopp over bekreftelse"
+  },
+  "program": {
+    "description": "moatazalai — Smart AI-ruter med automatisk fallback",
+    "version": "Skriv ut versjon og avslutt",
+    "output": "Utdataformat (table, json, jsonl, csv)",
+    "quiet": "Undertrykk ikke-essensiell utdata",
+    "no_color": "Deaktiver farget utdata",
+    "timeout": "HTTP-forespørsel timeout i millisekunder",
+    "api_key": "API-nøkkel for moatazalai-serveren",
+    "base_url": "moatazalai-serverens basis-URL",
+    "context": "Serverkontekst/profil for denne kommandoen",
+    "lang": "Angi CLI-visningsspråk (overstyrer MOATAZALAI_LANG)"
+  },
+  "redis": {
+    "description": "Start en lokal Redis-beholder med ett klikk (Podman eller Docker) for moatazalai-hurtigbufring og kvotesporing"
+  }
+}

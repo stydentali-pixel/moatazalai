@@ -1,0 +1,32 @@
+{
+  "common": {
+    "error": "Chyba: {message}",
+    "serverOffline": "Server moatazalai je offline. Spustite: moatazalai serve",
+    "authRequired": "Vyžaduje sa overenie. Nastavte MOATAZALAI_API_KEY alebo spustite: moatazalai setup",
+    "rateLimited": "Prekročený limit požiadaviek. Skúste za {seconds}s.",
+    "timeout": "Požiadavka vypršala po {ms}ms.",
+    "success": "Hotovo.",
+    "yes": "áno",
+    "no": "nie",
+    "confirm": "Ste si istí? (áno/nie)",
+    "dryRun": "[simulácia] by vykonalo: {action}",
+    "cancelled": "Zrušené.",
+    "jsonOpt": "Výstup ako JSON",
+    "yesOpt": "Preskočiť potvrdenie"
+  },
+  "program": {
+    "description": "moatazalai — Inteligentný AI router s automatickým prepínaním",
+    "version": "Vypísať verziu a skončiť",
+    "output": "Formát výstupu (table, json, jsonl, csv)",
+    "quiet": "Potlačiť nepodstatný výstup",
+    "no_color": "Zakázať farebný výstup",
+    "timeout": "Časový limit HTTP požiadaviek v milisekundách",
+    "api_key": "API kľúč pre server moatazalai",
+    "base_url": "Základná URL servera moatazalai",
+    "context": "Kontext/profil servera pre tento príkaz",
+    "lang": "Nastaviť jazyk zobrazenia CLI (prepíše MOATAZALAI_LANG)"
+  },
+  "redis": {
+    "description": "Spustiť miestny kontajner Redis jedným kliknutím (Podman alebo Docker) na ukladanie do vyrovnávacej pamäte a sledovanie kvót moatazalai"
+  }
+}
